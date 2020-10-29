@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render and match snapshot 1`] = `
+<Fragment>
+  <Memo(l) />
+  <styled.div>
+    <styled.header>
+      <h1>
+        Recipes
+      </h1>
+      <styled.button
+        onClick={[Function]}
+      >
+        Add Recipe
+      </styled.button>
+    </styled.header>
+    No Recipes
+  </styled.div>
+  <Popup
+    onClose={[Function]}
+    onSubmit={[Function]}
+    submitText="Add Recipe"
+    title="Add Recipe"
+    visible={false}
+  >
+    <Form
+      dispatch={[Function]}
+      form={
+        Object {
+          "id": null,
+          "ingredients": "",
+          "name": "",
+        }
+      }
+    />
+  </Popup>
+  <Popup
+    onClose={[Function]}
+    onSubmit={[Function]}
+    submitText="Edit Recipe"
+    title="Edit Recipe"
+    visible={false}
+  >
+    <Form
+      dispatch={[Function]}
+      form={
+        Object {
+          "id": null,
+          "ingredients": "",
+          "name": "",
+        }
+      }
+    />
+  </Popup>
+</Fragment>
+`;

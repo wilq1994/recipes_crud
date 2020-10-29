@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Recipe should render and match snapshot 1`] = `
+<Fragment>
+  <styled.header>
+    <h2>
+      Ingredients
+    </h2>
+    <styled.div>
+      <styled.button
+        onClick={[MockFunction]}
+        secondary={true}
+        small={true}
+      >
+        Delete
+      </styled.button>
+      <styled.button
+        onClick={[MockFunction]}
+        small={true}
+      >
+        Edit
+      </styled.button>
+    </styled.div>
+  </styled.header>
+  <List
+    list={
+      Array [
+        "a",
+        "b",
+        "c",
+      ]
+    }
+  />
+</Fragment>
+`;

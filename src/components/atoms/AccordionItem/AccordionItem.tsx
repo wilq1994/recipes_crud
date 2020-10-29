@@ -14,7 +14,7 @@ export const AccordionItem = ({ name, children }: PropsWithChildren<Props>) => {
       <Header onClick={() => setIsOpen((prevValue) => !prevValue)}>
         {name}
       </Header>
-      <Content>{children}</Content>
+      {isOpen && <Content>{children}</Content>}
     </Wrapper>
   );
 };

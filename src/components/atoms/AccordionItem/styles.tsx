@@ -15,7 +15,6 @@ export const Header = styled.header`
 
 export const Content = styled.div`
   padding: 1rem 1.5rem;
-  display: none;
 `;
 
 export const Wrapper = styled.section<{ isOpen: boolean }>`
@@ -30,10 +29,6 @@ export const Wrapper = styled.section<{ isOpen: boolean }>`
       ${Header} {
         background: var(--secondary-color);
         color: #fff;
-      }
-
-      ${Content} {
-        display: block;
       }
     `}
 `;

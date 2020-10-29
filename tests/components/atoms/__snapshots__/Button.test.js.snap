@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render and match snapshot 1`] = `
+<button
+  className="sc-bdnylx hCJbVq"
+>
+  Button
+</button>
+`;
+
+exports[`Button should render as secondary if secondary property passed 1`] = `
+<button
+  className="sc-bdnylx kPwPpY"
+>
+  Button
+</button>
+`;
+
+exports[`Button should render small if small property passed 1`] = `
+<button
+  className="sc-bdnylx kBzZJx"
+>
+  Button
+</button>
+`;

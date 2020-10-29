@@ -1,11 +1,13 @@
 import React from "react";
 import { shallow } from "enzyme";
 
-import App from "components/App";
+import FormField from "components/atoms/FormField";
 
-describe("App", () => {
+describe("FormField", () => {
   it("should render and match snapshot", () => {
-    const component = shallow(<App />);
+    const component = shallow(
+      <FormField><div>Child</div></FormField>
+    );
 
     expect(component.exists()).toBeTruthy();
     expect(component).toMatchSnapshot();

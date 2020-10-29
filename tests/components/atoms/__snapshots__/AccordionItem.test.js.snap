@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccordionItem should render and match snapshot 1`] = `
+<styled.section
+  isOpen={false}
+>
+  <styled.header
+    onClick={[Function]}
+  >
+    Name
+  </styled.header>
+</styled.section>
+`;
+
+exports[`AccordionItem should show content if clicked 1`] = `
+<styled.section
+  isOpen={true}
+>
+  <styled.header
+    onClick={[Function]}
+  >
+    Name
+  </styled.header>
+  <styled.div>
+    <div>
+      Child
+    </div>
+  </styled.div>
+</styled.section>
+`;

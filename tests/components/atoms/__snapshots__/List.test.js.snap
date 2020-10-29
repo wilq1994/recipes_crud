@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List should render and match snapshot 1`] = `
+<styled.ul>
+  <li
+    key="0"
+  >
+    a
+  </li>
+  <li
+    key="1"
+  >
+    b
+  </li>
+  <li
+    key="2"
+  >
+    c
+  </li>
+</styled.ul>
+`;
