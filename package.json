@@ -1,0 +1,41 @@
+{
+  "name": "recipes_crud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wilq1994/recipes_crud.git",
+  "author": "wilq1994 <bartek94@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack",
+    "test": "jest --watch"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "./tests/jest.setup.js"
+    ]
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "@types/jest": "^26.0.15",
+    "@types/react": "^16.9.55",
+    "@types/react-dom": "^16.9.9",
+    "@types/styled-components": "^5.1.4",
+    "babel-loader": "^8.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "jest": "^26.6.1",
+    "ts-loader": "^8.0.7",
+    "typescript": "^4.0.5",
+    "webpack": "^5.3.1",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
