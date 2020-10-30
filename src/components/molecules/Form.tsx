@@ -1,4 +1,4 @@
-import React, { Dispatch, SyntheticEvent } from "react";
+import React, { ChangeEvent, Dispatch } from "react";
 
 import { ActionTypes, RecipeFormType } from "components/types";
 import { Action } from "components/reducer";
@@ -10,11 +10,11 @@ type Props = {
 };
 
 const Form = ({ form, dispatch }: Props) => {
-  function onNameChange(event: SyntheticEvent) {
+  function onNameChange(event: ChangeEvent<HTMLInputElement>) {
     dispatch({ type: ActionTypes.SET_NAME, payload: event?.target.value });
   }
 
-  function onIngredientsChange(event: SyntheticEvent) {
+  function onIngredientsChange(event: ChangeEvent<HTMLTextAreaElement>) {
     dispatch({
       type: ActionTypes.SET_INGREDIENTS,
       payload: event?.target.value,

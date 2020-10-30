@@ -55,7 +55,8 @@ export function reducer(state: State, action: Action): State {
         ...state,
         form: {
             id: action.payload,
-            ...state.recipes[action.payload]
+            name: state.recipes[action.payload].name,
+            ingredients: state.recipes[action.payload].ingredients.join(','),
         },
       };
     case ActionTypes.SET_NAME:
